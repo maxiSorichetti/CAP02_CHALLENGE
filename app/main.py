@@ -8,4 +8,4 @@ app.include_router(tasks_router, prefix="/tasks", tags=["tasks"])
 
 @app.get("/")
 async def root():
-    return {"message": "Task Manager API"}
+    return {"message": "Task Manager API"};
